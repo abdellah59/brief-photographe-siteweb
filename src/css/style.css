@@ -69,5 +69,30 @@ footer .logo img {
   max-width: 200px;
   margin-top: 0.5rem;
 }
+footer .logo {
+  grid-area: logo;
+}
+footer .logo img {
+  max-width: 200px;
+  margin-top: 0.5rem;
+}
+footer .contact {
+  grid-area: contact;
+}
+footer .contact a {
+  color: inherit;
+  text-decoration: underline;
+}
+footer .horaires {
+  grid-area: horaires;
+}
+footer #copyrights {
+  grid-area: copyright;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
+footer #copyrights a {
+  text-decoration: underline;
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -43,6 +43,36 @@ footer {
     }
   }
 
+  .logo {
+    grid-area: logo;
 
+    img {
+      max-width: 200px;
+      margin-top: 0.5rem;
+    }
+  }
+
+  .contact {
+    grid-area: contact;
+
+    a {
+      color: inherit;
+      text-decoration: underline;
+    }
+  }
+
+  .horaires {
+    grid-area: horaires;
+  }
+
+  #copyrights {
+    grid-area: copyright;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+
+    a {
+      text-decoration: underline;
+    }
+  }
   
 }
