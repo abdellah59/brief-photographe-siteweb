@@ -20,6 +20,20 @@ footer {
       "horaires"
       "copyright";
     grid-template-columns: 1fr;
+
+  }
+  .social-media {
+    grid-area: social;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    a img {
+      width: 50px;
+      margin: 0.5rem;
+    }
   }
 
+ 
+  
 }
