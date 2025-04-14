@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel:wght@400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -34,6 +35,22 @@ header nav li a {
   font-family: "Martel", sans-serif;
   color: #090B0A;
   text-decoration: none;
+}
+
+footer {
+  background-color: #f9dfe7;
+  padding: 2rem;
+  display: grid;
+  grid-template-areas: "social logo contact" "social logo horaires" "copyright copyright copyright";
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  footer {
+    grid-template-areas: "logo" "social" "contact" "horaires" "copyright";
+    grid-template-columns: 1fr;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

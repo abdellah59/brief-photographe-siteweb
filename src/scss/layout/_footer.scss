@@ -12,4 +12,14 @@ footer {
   gap: 1rem;
   text-align: center;
 
- 
+  @media screen and (max-width: 768px) {
+    grid-template-areas:
+      "logo"
+      "social"
+      "contact"
+      "horaires"
+      "copyright";
+    grid-template-columns: 1fr;
+  }
+
+}
