@@ -8,5 +8,13 @@ header {
     background: $color-primary;
     padding: 1rem 2rem; // Ajout d’un peu de padding horizontal
 
+    .logo {
+        img {
+            width: 600px; // Ajustable selon ton besoin
+            max-height: 100px;
+            object-fit: contain;
+        }
+    }
 
+    
 }
