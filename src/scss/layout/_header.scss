@@ -16,5 +16,25 @@ header {
         }
     }
 
-    
+    nav {
+        justify-self: center; // Aligne le nav à droite
+        ul {
+            display: flex;
+            gap: 2rem;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            a {
+                font-weight: bold;         
+                font-size: 1.2rem;           
+                font-family: 'Martel', sans-serif;
+                color: #090B0A;
+                text-decoration: none;
+            }
+        }
+    }
+
 }

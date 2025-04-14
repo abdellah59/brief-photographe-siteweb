@@ -3,3 +3,37 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+header {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  font-family: "Martel", sans-serif;
+  background: #FAE4DF;
+  padding: 1rem 2rem;
+}
+header .logo img {
+  width: 600px;
+  max-height: 100px;
+  object-fit: contain;
+}
+header nav {
+  justify-self: center;
+}
+header nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+header nav li a {
+  font-weight: bold;
+  font-size: 1.2rem;
+  font-family: "Martel", sans-serif;
+  color: #090B0A;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
