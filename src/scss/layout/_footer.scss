@@ -34,6 +34,15 @@ footer {
     }
   }
 
- 
+  .logo {
+    grid-area: logo;
+
+    img {
+      max-width: 200px;
+      margin-top: 0.5rem;
+    }
+  }
+
+
   
 }

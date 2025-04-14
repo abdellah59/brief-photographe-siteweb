@@ -62,5 +62,12 @@ footer .social-media a img {
   width: 50px;
   margin: 0.5rem;
 }
+footer .logo {
+  grid-area: logo;
+}
+footer .logo img {
+  max-width: 200px;
+  margin-top: 0.5rem;
+}
 
 /*# sourceMappingURL=style.css.map */
