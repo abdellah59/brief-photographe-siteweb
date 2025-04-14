@@ -1,1 +1,15 @@
 // Footer
+
+footer {
+  background-color: $color-secondary;
+  padding: 2rem;
+  display: grid;
+  grid-template-areas:
+    "social logo contact"
+    "social logo horaires"
+    "copyright copyright copyright";
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  text-align: center;
+
+ 
