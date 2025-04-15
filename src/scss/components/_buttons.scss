@@ -4,10 +4,10 @@ header {
     
     a{
     display: inline-block;
-    padding: 0.8rem 1.5rem;
+    padding: 0.8rem 2.5rem;
     background: $color-secondary;
     color: rgb(0, 0, 0);
-    border-radius: 5px;
+    border-radius: 60px;
     text-decoration: none;
     font-weight: bold;
     }
@@ -19,12 +19,15 @@ header {
     
     a{
     display: inline-block;
-    padding: 0.8rem 1.5rem;
+    padding: 0.8rem 8.5rem;
     background: $color-primary;
     color: rgb(0, 0, 0);
-    border-radius: 5px;
+    text-align: center;
+    text-anchor: middle;
+    border-radius: 20px;
     text-decoration: none;
     font-weight: bold;
+    margin: auto;
     }
 }
   
