@@ -119,3 +119,37 @@
   font-size: 1.2rem;
   color: #ad1457;
 }
+
+
+.image {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.image figure {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 1rem;
+  background-color: $color-secondary;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.image img {
+  width: 64px;
+  height: 64px;
+}
+
+.image figcaption {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* Responsive : 2 columns if 2 screens > 600px */
+@media (min-width: 768px) {
+  .image {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
