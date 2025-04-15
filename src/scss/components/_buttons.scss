@@ -1,1 +1,16 @@
 // Boutons
+
+header {
+    
+    a{
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background: $color-secondary;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    }
+}
+  
+
