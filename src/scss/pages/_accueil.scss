@@ -3,8 +3,8 @@
 #Presentation {
   width: 100%;
   display: grid;
-  grid-template-columns: 50% 50%; // 2 colonnes : 1 pour l'image, 1 pour les titres
-  grid-template-rows: 0% 100%;
+  grid-template-columns: 1fr 1fr; // 2 colonnes : 1 pour l'image, 1 pour les titres
+  grid-template-rows: auto;
   background: $color-secondary;
 
 
@@ -16,7 +16,7 @@
    
   }
   .Presentation {
-    align-content: right;
+    align-content: end;
     padding: 25%;
 
     h2 {
@@ -48,4 +48,26 @@
   }
   
 
+  #studio {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%; // 2 colonnes : 1 pour l'image, 1 pour les titres
+    grid-template-rows: 0% 100%;
+    background: $color-third;
+  
+    .illustration-studio {
+      display: flex;
+      justify-content: center; // pour centrer l’image horizontalement
+    
+      img {
+        border: 5px solid white;
+        width: 100%; // ajuste selon tes besoins
+        height: 50; // conserve les proportions naturelles
+      }
+    }
+
+  
+  }
+  
+   
   
