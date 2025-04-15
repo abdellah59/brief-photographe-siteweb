@@ -48,7 +48,7 @@
   }
   
 
-  #studio {
+#studio {
     width: 100%;
     display: grid;
     grid-template-columns: 50% 50%; // 2 colonnes : 1 pour l'image, 1 pour les titres
@@ -90,10 +90,32 @@
         padding: 5vh 1vw 3vh;
         border-bottom-left-radius: 2.5em;
         border-bottom-right-radius: 2.5em;
+      }
     }
-    }
+}
   
-  }
+#experience-competence {
+  padding: 5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* box container  h1 et h2 */
+.titre-container {
+  background-color: #fce4ec; 
+  padding: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.titre-container h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
   
-   
-  
+}
+
+.titre-container h2 {
+  font-size: 1.2rem;
+  color: #ad1457;
+}
