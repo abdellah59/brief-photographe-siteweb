@@ -1,10 +1,11 @@
 // Header
+
 header {
     width: 100%;
     display: grid;
     grid-template-columns: auto 1fr; // Logo à gauche, nav à droite
     align-items: center;
-    font-family: $font-main;
+    font-family: $font-heading;
     background: $color-primary;
     padding: 1rem 2rem; // Ajout d’un peu de padding horizontal
 
