@@ -36,7 +36,15 @@
   }
 }
 
+  .illustration-presentation {
+    display: flex;
+    justify-content: center; // pour centrer l’image horizontalement
   
+    img {
+      border: 5px solid white;
+      width: 100%; // ajuste selon tes besoins
+      height: 50; // conserve les proportions naturelles
+    }
   }
   
 
