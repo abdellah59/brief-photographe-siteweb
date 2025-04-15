@@ -31,3 +31,20 @@ header {
     }
 }
   
+
+#studio {
+    
+    a{
+    display: inline-block;
+    padding: 0.8rem 8.5rem;
+    background: $color-primary;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-anchor: middle;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: auto;
+    }
+}
+  
