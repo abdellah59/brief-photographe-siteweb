@@ -9,3 +9,41 @@ $font-body: "Open Sans", sans-serif;
 $bold: 700;
 $normal: 400;
 
+/* Font sizes for text */
+
+h1 {
+    font-family: $font-heading;
+    font-size: 3em;
+    color: black;
+}
+
+h2 {
+    font-family: $font-subheading;
+    font-size: 1.75em;
+    color: black;
+}
+
+h3 {
+    font-family: $font-subheading;
+    font-size: 1.25em;
+    color: black;
+}
+
+p {
+    font-family: $font-body;
+    color: black;
+}
+
+a {
+    font-family: $font-subheading;
+    color: black;
+}
+
+strong {
+    font-family: $font-subheading;
+    color: black;
+}
+
+li {
+    font-family: $font-body;
+}
