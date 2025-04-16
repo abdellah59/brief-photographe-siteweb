@@ -1,41 +1,50 @@
-// Header
-
 header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     width: 100%;
-    display: grid;
-    grid-template-columns: auto 1fr; // Logo à gauche, nav à droite
-    align-items: center;
-    font-family: $font-heading;
     background: $color-primary;
-    padding: 1rem 2rem; // Ajout d’un peu de padding horizontal
+    font-family: $font-heading;
+    padding: 1rem 2rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 
     .logo {
         img {
-            width: 600px; // Ajustable selon ton besoin
-            max-height: 100px;
+            width: 150px;
+            max-height: 100x;
             object-fit: contain;
         }
     }
 
     nav {
-        justify-self: center; // Aligne le nav à droite
         ul {
             display: flex;
-            gap: 2rem;
-            list-style-type: none;
+            gap: 1.5rem;
+            list-style: none;
             margin: 0;
             padding: 0;
-        }
 
-        li {
-            a {
-                font-weight: bold;         
-                font-size: 1.2rem;           
-                font-family: 'Martel', sans-serif;
-                color: #090B0A;
-                text-decoration: none;
+            li {
+                a {
+                    font-weight: bold;
+                    font-size: 1.5rem;
+                    font-family: 'Martel', sans-serif;
+                    color: #090B0A;
+                    text-decoration: none;
+                    transition: color 0.3s ease, text-shadow 0.3s ease;
+
+                    &:hover {
+                        color:$color-text;
+                        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+                    }
+                }
             }
         }
     }
 
+    
 }
