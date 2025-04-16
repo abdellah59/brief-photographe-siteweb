@@ -118,9 +118,24 @@
     }
   }
 
+// Responsive : 1 seule colonne pour petit écran
+@media (max-width: 768px) {
+  grid-template-columns: 1fr;
+  .illustration-studio {
+    order: 1; // L’image passe en haut
+  }
+
+  .Presentation-studio {
+    order: 2; // Le texte passe en dessous
+  }
+
+  .illustration-studio img {
+    width: 80%;
+  }
+}
+}
 
 
-  
 // Section Experience //
 
 #experience-competence {
