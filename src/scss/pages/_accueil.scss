@@ -220,7 +220,7 @@
   color: #666;
 }
 
-/* 🌐 Responsive pour petits écrans */
+// Responsive pour les petits écrans //
 @media (max-width: 768px) {
   .prestations {
     grid-template-columns: 1fr;
@@ -237,4 +237,24 @@
     grid-row: auto;
   }
 }
+
+// Section avis //
+
+#avis {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  padding: 2rem;
+  background-color: $color-primary;
+}
+
+/* Titre centré sur toute la largeur */
+#avis > h2 {
+  grid-column: 1 / -1;
+  text-align: center;
+  font-size: 2rem;
+  color: $color-text;
+  margin-bottom: 1rem;
+}
+
 
