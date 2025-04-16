@@ -294,4 +294,16 @@
   margin-top: 1rem;
 }
 
+// responsive application //
 
+@media (max-width: 1024px) {
+  #avis {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  #avis {
+    grid-template-columns: 1fr;
+  }
+}
