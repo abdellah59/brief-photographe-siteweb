@@ -94,6 +94,8 @@
     }
 }
   
+// Section Experience //
+
 #experience-competence {
   padding: 5rem;
   max-width: 1200px;
@@ -119,7 +121,6 @@
   font-size: 1.2rem;
   color: #ad1457;
 }
-
 
 .image {
   display: grid;
@@ -154,6 +155,8 @@
   }
 }
 
+// Section prestation //
+
 .prestations {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -163,16 +166,14 @@
   background-color: #fef8f4;
 }
 
-/* Titre principal */
 .prestations > h2 {
   grid-column: 1 / -1;
   text-align: center;
-  font-size: 2rem;
-  color: #7d4f50;
+  font-size: 3;
+  color: $color-text;
   margin-bottom: 1rem;
 }
 
-/* Style des articles */
 .prestations article {
   background-color: $color-primary;
   padding: 1rem;
@@ -184,7 +185,7 @@
 .prestations article h3 {
   margin-bottom: 0.5rem;
   color: #b75d69;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .prestations article p {
@@ -203,5 +204,19 @@
   text-align: center;
   box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
+
+.prestations figure img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.prestations figure figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
 
 
