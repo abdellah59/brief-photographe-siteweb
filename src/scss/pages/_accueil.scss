@@ -50,15 +50,40 @@
       border: 5px solid white;
       width: 100%;  // Ajuste selon le besoin
       height: auto;
-      object-fit: cover;
+      
     }
   }
 
   // Responsivité pour les écrans plus petits
-  @media (max-width: 728px) {
-    grid-template-columns: 1fr; // Une seule colonne pour les petits écrans
-    .illustration-presentation img {
-      width: 80%;  // Ajuste l'image pour qu'elle soit plus petite sur mobile
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+
+    .Presentation {
+      order: 1;
+      padding: 1rem;
+      text-align: center;
+
+      h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        margin-right: 1rem;
+      }
+
+      h2 {
+        font-size: 1.4rem;
+        margin-bottom: 0.5rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+
+    .illustration-presentation {
+      order: 2;
+      padding: 0.5rem;
+      padding-right: 0.5rem;
     }
   }
 }
@@ -84,7 +109,7 @@
       border: 5px solid white;
       width: 100%;
       height: auto;
-      object-fit: cover;
+     
     }
   }
 
