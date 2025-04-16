@@ -220,5 +220,21 @@
   color: #666;
 }
 
+/* 🌐 Responsive pour petits écrans */
+@media (max-width: 768px) {
+  .prestations {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
 
+  .prestations article:nth-of-type(1),
+  .prestations figure:nth-of-type(1),
+  .prestations article:nth-of-type(2),
+  .prestations figure:nth-of-type(2),
+  .prestations article:nth-of-type(3),
+  .prestations figure:nth-of-type(3) {
+    grid-column: 1;
+    grid-row: auto;
+  }
+}
 
