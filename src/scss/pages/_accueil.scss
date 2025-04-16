@@ -143,21 +143,38 @@
     }
   }
 
-// Responsive : 1 seule colonne pour petit écran
-@media (max-width: 728px) {
-  grid-template-columns: 1fr;
-  .illustration-studio {
-    order: 1; // L’image passe en haut
-  }
+  // Responsivité pour les écrans plus petits
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    padding: 1rem;
 
-  .Presentation-studio {
-    order: 2; // Le texte passe en dessous
-  }
+    .Presentation-studio {
+      order: 1;
+      padding: 1rem;
+      text-align: center;
 
-  .illustration-studio img {
-    width: 80%;
+      h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        margin-right: 1rem;
+      }
+
+      h2 {
+        font-size: 1.4rem;
+        margin-bottom: 0.5rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+
+    .illustration-studio {
+      order: 2;
+      padding: 0.5rem;
+      padding-right: 0.5rem;
+    }
   }
-}
 }
 
 
