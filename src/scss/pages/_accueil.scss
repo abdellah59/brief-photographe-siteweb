@@ -55,7 +55,7 @@
   }
 
   // Responsivité pour les écrans plus petits
-  @media (max-width: 768px) {
+  @media (max-width: 728px) {
     grid-template-columns: 1fr; // Une seule colonne pour les petits écrans
     .illustration-presentation img {
       width: 80%;  // Ajuste l'image pour qu'elle soit plus petite sur mobile
@@ -119,7 +119,7 @@
   }
 
 // Responsive : 1 seule colonne pour petit écran
-@media (max-width: 768px) {
+@media (max-width: 728px) {
   grid-template-columns: 1fr;
   .illustration-studio {
     order: 1; // L’image passe en haut
@@ -193,7 +193,7 @@
 }
 
 /* Responsive : 2 columns if 2 screens > 600px */
-@media (min-width: 768px) {
+@media (min-width: 728px) {
   .image {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -263,7 +263,7 @@
 }
 
 // Responsive pour les petits écrans //
-@media (max-width: 768px) {
+@media (max-width: 728px) {
   .prestations {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
