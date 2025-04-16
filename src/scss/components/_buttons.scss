@@ -27,7 +27,7 @@ header {
     
     a{
     display: inline-block;
-    padding: 0.8rem 8.5rem;
+    padding: 0.8rem 1.5rem;
     background: $color-primary;
     color: $color-text;
     text-align: center;
@@ -44,6 +44,16 @@ header {
         transition: 0.1s all ease-in-out;
     }
     }
+
+    // Responsive padding
+    @media screen and (max-width: 768px) {
+        padding: 0.8rem 4rem;
+      }
+  
+      @media screen and (max-width: 480px) {
+        padding: 0.8rem 2rem;
+        font-size: 0.9rem; // Optionnel : pour s’adapter à un petit écran
+      }
 }
   
 
@@ -51,7 +61,7 @@ header {
     
     a{
     display: inline-block;
-    padding: 0.8rem 8.5rem;
+    padding: 0.8rem 1.5rem;
     background: $color-primary;
     color: rgb(0, 0, 0);
     text-align: center;
@@ -68,5 +78,14 @@ header {
         transition: 0.1s all ease-in-out;
     }
     }
+    // Responsive padding
+    @media screen and (max-width: 768px) {
+        padding: 0.8rem 4rem;
+      }
+  
+      @media screen and (max-width: 480px) {
+        padding: 0.8rem 2rem;
+        font-size: 0.9rem; // Optionnel : pour s’adapter à un petit écran
+      }
 }
   
