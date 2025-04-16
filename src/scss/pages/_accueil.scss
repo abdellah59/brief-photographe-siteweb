@@ -54,7 +54,15 @@
     }
   }
 
- 
+  // Responsivité pour les écrans plus petits
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr; // Une seule colonne pour les petits écrans
+    .illustration-presentation img {
+      width: 80%;  // Ajuste l'image pour qu'elle soit plus petite sur mobile
+    }
+  }
+}
+
 // Section Studio //
 
 #studio {
