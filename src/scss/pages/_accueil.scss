@@ -258,3 +258,40 @@
 }
 
 
+#avis article {
+  background-color: $color-secondary;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#avis article h3 {
+  font-size: 1.1rem;
+  color: #497174;
+  margin-bottom: 0.5rem;
+}
+
+#avis article blockquote {
+  margin: 0;
+  padding-left: 1rem;
+  border-left: 4px solid $color-third;
+  font-style: italic;
+  color: #444;
+}
+
+#avis article blockquote p {
+  margin: 0.5rem 0;
+}
+
+#avis article cite {
+  font-style: normal;
+  font-weight: bold;
+  color: #7c3939;
+  display: block;
+  margin-top: 1rem;
+}
+
+
