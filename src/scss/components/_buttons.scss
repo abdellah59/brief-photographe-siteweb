@@ -21,13 +21,18 @@ header {
     display: inline-block;
     padding: 0.8rem 8.5rem;
     background: $color-primary;
-    color: rgb(0, 0, 0);
+    color: $color-text;
     text-align: center;
-    text-anchor: middle;
+    text-anchor: end;
     border-radius: 20px;
     text-decoration: none;
     font-weight: bold;
-    margin: auto;
+    margin: 2rem;
+
+    &:hover {
+        color:$color-text;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    }
     }
 }
   
@@ -44,7 +49,12 @@ header {
     border-radius: 20px;
     text-decoration: none;
     font-weight: bold;
-    margin: auto;
+    margin: 2rem;
+
+    &:hover {
+        color:$color-text;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    }
     }
 }
   
