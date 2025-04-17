@@ -50,4 +50,41 @@ footer {
     text-decoration: underline;
   }
   
+  .social-media img {
+    width: 60px;
+    height: auto;
+    margin: 0 100px; /* Ajusté la marge pour un espacement plus raisonnable */
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+  }
+  
+  .social-media img:hover {
+    opacity: 1;
+  }
+  
+  /* Ajout pour centrer le contenu de la figure (le logo img) */
+  figure.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; /* Réinitialise la marge de la figure si nécessaire */
+  }
+  
+  .logo img {
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: block; /* Assure que l'image est un bloc pour le centrage */
+  }
+  
+  .contact p {
+    margin-bottom: 5px;
+  }
+  
+  .horaires p {
+     margin-bottom: 8px;
+  }
+  
   
