@@ -350,7 +350,7 @@ footer #copyrights a {
 }
 
 .titre-container h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-bottom: 2rem;
 }
 
@@ -401,7 +401,7 @@ footer #copyrights a {
   background-color: #FBE9D7;
 }
 
-.prestations > h2 {
+.prestations h2 {
   grid-column: 1/-1;
   text-align: center;
   font-size: 3;
@@ -476,11 +476,12 @@ footer #copyrights a {
 }
 
 /* Titre centré sur toute la largeur */
-#avis > h2 {
+#avis h2 {
   grid-column: 1/-1;
   text-align: center;
   font-size: 2.75rem;
   color: #090B0A;
+  font-size: 2.5rem;
   margin-bottom: 1rem;
 }
 
@@ -520,7 +521,7 @@ footer #copyrights a {
   margin-top: 1rem;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   #avis {
     grid-template-columns: repeat(2, 1fr);
   }
