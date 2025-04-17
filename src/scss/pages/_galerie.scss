@@ -1,1 +1,25 @@
 // Galerie
+
+.galerie {
+    background-color: $color-secondary;
+    padding: 2em;
+  
+    h2 {
+      text-align: center;
+      font-size: 3em;
+      color: #b75d69;
+      margin-bottom: 0.5em;
+    }
+  p{
+    font-size: 2.25em;
+  }
+    .intro {
+      text-align: center;
+      font-size: 1.75rem;
+      color: $color-text;
+      margin-bottom: 2em;
+      max-width: 60ch;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
