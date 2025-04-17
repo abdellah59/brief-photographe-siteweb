@@ -88,5 +88,92 @@
 }
 }
 
+// Section Studio location //
 
+.studio-location {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: $color-primary;
+  padding: 5vh 2vw;
+  min-height: 80vh;
+  gap: 2rem;
+  
+  // Carte à gauche
+  .location-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  
+    iframe {
+      border: none;
+      width: 100%;
+      height: 300px;
+    }
+  }
+  
+  // Texte à droite
+  .location-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    color: $color-text;
+    text-align: left;
+  
+    h1 {
+      margin-bottom: 1rem;
+      font-size: 3rem;
+    }
+  
+    h2 {
+      margin-bottom: 1rem;
+      font-size: 2rem;
+      border-bottom: 3px solid $color-text;
+      padding-bottom: 0.5rem;
+    }
+  
+    address {
+      font-size: 1.2rem;
+      font-style: normal;
+      line-height: 1.6;
+      margin-top: 1rem;
+    }
+  }
+  
+  
+  // Responsive pour mobile
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  
+    .location-container,
+    .location-text {
+      padding: 1rem;
+    }
+  
+    .location-container {
+      order: 2;
+    }
+  
+    .location-text {
+      order: 1;
+      text-align: center;
+  
+      h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+      }
+  
+      h2 {
+        font-size: 1.5rem;
+      }
+  
+      address {
+        font-size: 1rem;
+      }
+    }
+  }
+  }
+  
 
