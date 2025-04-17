@@ -1,5 +1,7 @@
 // Accuiel 
-
+main { 
+  background-color: $color-secondary;
+}
 #Presentation {
   width: 100%;
   display: grid;
@@ -190,7 +192,7 @@
 .titre-container {
   background-color: #fce4ec; 
   padding: 2rem;
-  border-radius: 1rem;
+ 
   text-align: center;
   margin-bottom: 2rem;
   
@@ -220,7 +222,7 @@
   justify-content: center; 
   background-color: $color-secondary;
   padding: 3rem;
-  border-radius: 0.5rem;
+  
   text-align: center;      
 }
 
