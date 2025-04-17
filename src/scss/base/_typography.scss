@@ -1,0 +1,51 @@
+// Styles typographiques
+
+/* Fonts to use in the site */
+$font-heading: "Judson", serif;
+$font-subheading: "Martel", serif;
+$font-body: "Open Sans", sans-serif;
+
+/* Weights for the text */
+$bold: 700;
+$normal: 400;
+
+/* Font sizes for text */
+
+h1 {
+    font-family: $font-heading;
+    font-size: 2.2em;
+    color: black;
+}
+
+h2 {
+    font-family: $font-subheading;
+    font-size: 2em;
+    color: black;
+}
+
+h3 {
+    font-family: $font-subheading;
+    font-size: 1.75em;
+    color: black;
+}
+
+p {
+    font-family: $font-body;
+    font-size: 1.25em;
+    color: black;
+}
+
+a {
+    font-family: $font-heading;
+    font-size: 1.5em;
+    color: black;
+}
+
+strong {
+    font-family: $font-subheading;
+    color: black;
+}
+
+li {
+    font-family: $font-subheading;
+}
