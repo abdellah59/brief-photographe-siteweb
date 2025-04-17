@@ -11,4 +11,43 @@ footer {
   text-align: center;
   }  
   
+  footer section {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  footer h2 {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    color: #555;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+  }
+  
+  footer .horaires h4 {
+    font-size: 1em;
+    color: #444;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  footer p {
+    font-size: 0.9em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  footer a {
+    color: #7c3939;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  footer a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+  
   
