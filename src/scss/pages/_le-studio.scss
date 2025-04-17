@@ -1,1 +1,12 @@
 // Le Studio
+
+.studio-welcome {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr; // 2 colonnes égales : 1 pour le texte, 1 pour l'image
+  grid-gap: 2rem; // Espacement entre les colonnes
+  align-items: center;
+  background: $color-secondary;
+  padding: 1vh 2vw;
+
+}
