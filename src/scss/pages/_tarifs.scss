@@ -98,4 +98,15 @@ main > section {
     margin-bottom: 15px;
   }
   
+  /* Responsive Design */
+  
+  /* Pour les écrans de petite taille (smartphones) */
+  @media (max-width: 768px) {
+    main {
+      grid-template-columns: 1fr; /* Une seule colonne sur mobile */
+    }
+  
+ 
+  }
+  
   
