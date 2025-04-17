@@ -87,4 +87,41 @@ footer {
      margin-bottom: 8px;
   }
   
+  #copyrights {
+    flex-basis: 100%;
+    margin-top: 20px;
+    border-top: 1px solid #381624;
+    padding-top: 20px;
+    text-align: center;
+  }
+  
+  #copyrights h2 {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+  
+  #copyrights p {
+    font-size: 0.8em;
+    color: #666;
+    margin: 0;
+  }
+  
+  #copyrights a {
+    color: #7c3939;
+    margin: 0 5px;
+  }
+  
+  #copyrights a:hover {
+    color: #007bff;
+  }
+  
+  
+
+
   
