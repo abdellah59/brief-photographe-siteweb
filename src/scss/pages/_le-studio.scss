@@ -39,4 +39,54 @@
 }
 
 
+// Colonne de l'image à droite
+.welcome-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+
+  img {
+    border: 5px solid white;
+    width: 100%;  // Ajuste selon le besoin
+    height: auto;
+    
+  }
 }
+
+// Responsivité pour les écrans plus petits
+@media (max-width: 768px) {
+  grid-template-columns: 1fr;
+  padding: 1rem;
+
+  .welcome-text {
+    order: 1;
+    padding: 1rem;
+    text-align: center;
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      margin-right: 1rem;
+    }
+
+    h2 {
+      font-size: 1.4rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+  }
+
+  .welcome-image {
+    order: 2;
+    padding: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+}
+
+
+
