@@ -1,111 +1,149 @@
-// Footer
-
 footer {
   background-color: $color-third;
-  padding: 2rem;
-  display: grid;
-  grid-template-areas:
-    "social logo contact"
-    "social logo horaires"
-    "copyright copyright copyright";
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 1rem;
+  padding: 40px 20px;
+  font-family: sans-serif;
+  border-top: 1px solid #e0e0e0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 20px;
   text-align: center;
-
-  @media screen and (max-width: 768px) {
-    grid-template-areas:
-      "logo"
-      "social"
-      "contact"
-      "horaires"
-      "copyright";
-    grid-template-columns: 1fr;
-
+  }  
+  
+  footer section {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
   }
-  .social-media {
-    grid-area: social;
+  
+  footer h2 {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    color: $color-text;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+  }
+  
+  footer .horaires h4 {
+    font-size: 1em;
+    color: $color-text;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  footer p {
+    font-size: 0.9em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  footer a {
+    color: #7c3939;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  footer a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+  
+  .social-media img {
+    width: 60px;
+    height: auto;
+    margin: 0 100px; /* Ajusté la marge pour un espacement plus raisonnable */
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+  }
+  
+  .social-media img:hover {
+    opacity: 1;
+  }
+  
+  /* Ajout pour centrer le contenu de la figure (le logo img) */
+  figure.logo {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    font-size: smaller;
-
-    a img {
-      width: 50px;
-      margin: 0.5rem;
-    }
+    margin: 0; /* Réinitialise la marge de la figure si nécessaire */
   }
-
-  .logo {
-    grid-area: logo;
-
-    img {
-      max-width: 200px;
-      margin-top: 0.5rem;
-    }
+  
+  .logo img {
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: block; /* Assure que l'image est un bloc pour le centrage */
   }
-
-
-  .contact {
-    grid-area: contact;
-    font-size: smaller;
-
-    a {
-      color: $color-text;
-      text-decoration: underline;
-
-    }
+  
+  .contact p {
+    margin-bottom: 5px;
   }
-
-  .horaires {
-    grid-area: horaires;
+  
+  .horaires p {
+     margin-bottom: 8px;
   }
-
+  
   #copyrights {
-    grid-area: copyright;
-    margin-top: 2rem;
-    font-size: small;
-
-    a {
-      text-decoration: underline;
-    }
-  }
-  // Responsive  //
-  @media screen and (max-width: 768px) {
-    grid-template-areas:
-      "logo"
-      "social"
-      "contact"
-      "horaires"
-      "copyright";
-    grid-template-columns: 1fr;
+    flex-basis: 100%;
+    margin-top: 20px;
+    border-top: 1px solid #381624;
+    padding-top: 20px;
     text-align: center;
-
-    .social-media {
-      flex-direction: row;
-      justify-content: center;
-      gap: 1rem;
-
-      a img {
-        width: 40px;
-      }
-    }
-
-    .logo img {
-      max-width: 150px;
-    }
-    
-    h2, h3 {
-      font-size: 1.4rem;
-    }
-
-    .contact,
-    .horaires, {
-      font-size: 0.7rem;
-    }
-
-    #copyrights {
-      margin-top: 1rem;
-      font-size: 0.5rem;
-    }
   }
+  
+  #copyrights h2 {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+  
+  #copyrights p {
+    font-size: 0.8em;
+    color: #666;
+    margin: 0;
+  }
+  
+  #copyrights a {
+    color: #7c3939;
+    margin: 0 5px;
+  }
+  
+  #copyrights a:hover {
+    color: #007bff;
+  }
+  
+  @media (max-width: 768px) {
+    footer {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 30px 15px;
+    }
+  
+    footer section {
+      min-width: 90%;
+      margin-bottom: 30px;
+    }
+  
+    .social-media img {
+      margin: 0 15px; /* Ajustement éventuel pour mobile */
+    }
+  
+    #copyrights {
+       margin-top: 10px;
+       padding-top: 15px;
+    }
 }
+  
+
+
+  
