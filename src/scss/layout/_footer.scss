@@ -1,4 +1,14 @@
 footer {
   background-color: $color-third;
+  padding: 40px 20px;
+  font-family: sans-serif;
+  border-top: 1px solid #e0e0e0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 20px;
+  text-align: center;
+  }  
   
-}
+  
