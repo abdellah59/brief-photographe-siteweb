@@ -13,4 +13,46 @@ main > section {
     margin-bottom: 0;
   }
   
+
+  .pricing-intro {
+    grid-column: 1 / -1; /* Prend toute la largeur */
+    text-align: center;
+  }
+  
+  .pricing-intro h1 {
+    color: #b75d69;
+    margin-bottom: 10px;
+  }
+  
+  .pricing-intro p {
+    line-height: 1.6;
+  }
+  
+  .pricing-grossesse,
+  .pricing-nouveau-ne,
+  .pricing-bebe {
+    background-color: $color-third;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease-in-out; /* Ajoute une transition pour l'effet de zoom */
+    text-align: center; /* Centre le texte dans les cartes */
+  }
+  
+  .pricing-grossesse:hover,
+  .pricing-nouveau-ne:hover,
+  .pricing-bebe:hover {
+    transform: scale(1.05); /* Zoom légèrement au survol */
+  }
+  
+  .pricing-grossesse h2,
+  .pricing-nouveau-ne h2,
+  .pricing-bebe h2 {
+    color: #b75d69;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+  }
+  
   
