@@ -40,3 +40,42 @@
     margin-bottom: 20px;
 }
 
+.formulaire-contact label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+.formulaire-contact input[type="text"],
+.formulaire-contact input[type="email"],
+.formulaire-contact select,
+.formulaire-contact textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+.formulaire-contact textarea {
+    resize: vertical;
+}
+
+.formulaire-contact .btn-envoyer {
+    display: inline-block;
+    background-color: #00a90e;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.formulaire-contact .btn-envoyer:hover {
+    background-color: #0056b3;
+}
