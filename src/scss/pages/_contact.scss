@@ -79,3 +79,18 @@
 .formulaire-contact .btn-envoyer:hover {
     background-color: #0056b3;
 }
+
+@media (max-width: 768px) {
+    .section-contact {
+        padding: 40px 15px;
+    }
+
+    .formulaire-contact {
+        padding: 20px;
+    }
+
+    .formulaire-contact .btn-envoyer {
+        width: 100%;
+        padding: 15px;
+    }
+}
