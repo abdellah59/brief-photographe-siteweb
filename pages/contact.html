@@ -34,6 +34,51 @@
 
     </header> 
 
+<main>
+    <section id="contact" class="section-contact">
+        <h2>Contact</h2>
+        <p class="intro">
+            Prêt(e) à créer de merveilleux souvenirs en images ? Vous avez des questions sur mes séances ? N'hésitez pas à me contacter via ce formulaire. Je reviendrai vers vous dans les plus brefs délais.        </p>
+      
+        <form action="mailto:annehalle@yahoot.com" method="post" enctype="text/plain" class="formulaire-contact">
+          <ul>
+            <li>
+              <label for="nom">Nom :</label>
+              <input type="text" id="nom" name="nom" required>
+            </li>
+      
+            <li>
+              <label for="email">Email :</label>
+              <input type="email" id="email" name="email" required>
+            </li>
+      
+            <li>
+              <label for="type-seance">Type de séance souhaitée :</label>
+              <select id="type-seance" name="type-seance" required>
+                <option value="">-- Sélectionnez un type de séance --</option>
+                <option value="grossesse">Grossesse</option>
+                <option value="naissance">Naissance</option>
+                <option value="bébé">Bébé</option>
+                <option value="autre">Autre</option>
+              </select>
+            </li>
+      
+            <li>
+              <label for="autre-type">Si autre, précisez :</label>
+              <input type="text" id="autre-type" name="autre-type" placeholder="Ex : Famille, allaitement...">
+            </li>
+      
+            <li>
+              <label for="message">Votre message :</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </li>
+          </ul>
+      
+          <button type="submit" class="btn-envoyer">Envoyer</button>
+        </form>
+      </section>
+      
+</main>
 
     <footer>
 
