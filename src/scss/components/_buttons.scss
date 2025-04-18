@@ -1,0 +1,90 @@
+// Boutons
+
+header {
+    
+    a{
+    display: inline-block;
+    padding: 0.8rem 2.5rem;
+    background: $color-secondary;
+    color: rgb(0, 0, 0);
+    border-radius: 60px;
+    text-decoration: none;
+    font-weight: bold;
+
+    &:hover {
+        color:$color-text;
+        text-shadow: 1px 1px 3px rgba(206, 20, 20, 0.2);
+        transform: scale(1.1);
+        transition: 0.1s all ease-in-out;
+    }
+    }
+}
+  
+
+
+#Presentation {
+    
+    a{
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background: $color-primary;
+    color: $color-text;
+    text-align: center;
+    text-anchor: end;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 2rem;
+
+    &:hover {
+        color:$color-text;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+        transform: scale(1.1);
+        transition: 0.1s all ease-in-out;
+    }
+    }
+
+    // Responsive padding
+    @media screen and (max-width: 768px) {
+        padding: 0.8rem 4rem;
+      }
+  
+      @media screen and (max-width: 480px) {
+        padding: 0.8rem 2rem;
+        font-size: 0.9rem; 
+      }
+}
+  
+
+#studio {
+    
+    a{
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background: $color-primary;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-anchor: middle;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 2rem;
+
+    &:hover {
+        color:$color-text;
+        text-shadow: 1px 1px 3px rgba(206, 20, 20, 0.2);
+        transform: scale(1.1);
+        transition: 0.1s all ease-in-out;
+    }
+    }
+    // Responsive padding
+    @media screen and (max-width: 768px) {
+        padding: 0.8rem 4rem;
+      }
+  
+      @media screen and (max-width: 480px) {
+        padding: 0.8rem 2rem;
+        font-size: 0.9rem; 
+      }
+}
+  
