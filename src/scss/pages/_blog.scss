@@ -90,7 +90,9 @@
     margin-top: 0;
     color: #555;
     margin-bottom: 20px;
-    text-align: center; 
+    text-align: center; /* Centre le titre h2 */
+    /* Fait en sorte que le h2 occupe toutes les colonnes de la grille et se place au début */
+    grid-column: 1 / -1;
   }
   
   .recent-articles {
