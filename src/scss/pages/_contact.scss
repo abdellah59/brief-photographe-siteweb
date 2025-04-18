@@ -1,1 +1,42 @@
 // Contact
+
+.section-contact {
+    padding: 60px 20px;
+    background-color: $color-secondary;
+    text-align: center;
+}
+
+#contact h2 {
+    color:#b75d69;
+    margin-bottom: 20px;
+    font-size: 3em;
+}
+
+.section-contact .intro {
+    color: $color-text;
+    margin-bottom: 40px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formulaire-contact {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: $color-primary;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.formulaire-contact ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.formulaire-contact li {
+    margin-bottom: 20px;
+}
+
