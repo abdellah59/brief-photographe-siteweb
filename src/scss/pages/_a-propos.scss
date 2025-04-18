@@ -1,1 +1,83 @@
 // À propos
+
+.about-photographer {
+    margin-bottom: 40px;
+  }
+  
+  .about-photographer h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .about-photographer article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  /* Styles pour l'image par défaut (petits écrans et plus) - Taille un peu agrandie */
+  .about-photographer article figure img {
+    max-width: 250px; /* Taille de l'image un peu agrandie */
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    margin: 0 auto 10px auto;
+  }
+  
+  /* Ajustement pour les écrans plus larges pour mettre l'image à gauche et le texte à droite */
+  @media (min-width: 768px) {
+    .about-photographer article {
+      flex-direction: row;
+      text-align: left;
+      align-items: flex-start;
+    }
+  
+    .about-photographer figure {
+      flex-shrink: 0;
+      margin-right: 30px;
+      margin-bottom: 0;
+    }
+  
+    .about-photographer article figure img {
+       max-width: 300px; /* Taille ajustée pour les écrans larges */
+       margin: 0;
+    }
+  
+    .about-photographer article > div {
+      flex-grow: 1;
+    }
+  }
+  
+  /* Styles pour la légende */
+  .about-photographer figcaption {
+    text-align: center;
+    font-style: italic;
+    margin-top: 10px;
+    color: #555;
+  }
+  
+  /* Styles pour le contenu texte à côté de la figure */
+  .about-photographer article > div h2 {
+    margin-top: 0;
+  }
+  
+  .about-photographer article > div p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  /* Styles pour la section "L'expérience d'une séance photo nouveau-né" */
+  .newborn-session-experience {
+      margin-top: 40px;
+  }
+  
+  .newborn-session-experience h2 {
+      text-align: center;
+      margin-bottom: 20px;
+  }
+  
+  .newborn-session-experience p {
+      margin-bottom: 15px;
+      line-height: 1.6;
+  }
