@@ -28,4 +28,21 @@ Toutes les pages sont construites en HTML sémantique, sans divs inutiles, avec 
 - Publication sur GitHub Pages
 - Favicon présent
 
-## Structure SASS (architecture 7-1)
+## Wireframe
+
+Un wireframe a été réalisé pour la version **desktop** uniquement.
+
+[Voir le wireframe desktop](https://www.figma.com/design/mpTy6mJAiwH8Uq8zlSgjDD/Untitled?node-id=0-1&t=YomnjuoqfdA9PuNr-1)  
+(hébergé sur Figma)
+
+## Auteurs 
+
+#### Abdellah
+
+- **GitHub**: [Abdellah](https://github.com/abdellah59)
+
+### Outils Utilisés
+
+- ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+- ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
+- ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
