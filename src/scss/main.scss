@@ -12,11 +12,16 @@
 @import 'layout/footer';
 @import 'layout/nav';
 
-// Pages
-@import 'pages/accueil';
-
 // Components
 @import 'components/buttons';
 @import 'components/cards';
 @import 'components/form';
 
+// Pages
+@import 'pages/le-studio';
+@import 'pages/accueil';
+@import 'pages/galerie';
+@import 'pages/tarifs';
+@import 'pages/blog';
+@import 'pages/a-propos';
+@import 'pages/contact';

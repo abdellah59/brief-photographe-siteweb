@@ -1,1 +1,103 @@
 // Blog
+/* Style de l'en-tête principal */
+.main-header {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: $color-secondary;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .main-header h1 {
+   
+    color: #b75d69;
+    text-align: center; 
+  }
+  
+  /* Style de la section de l'article le plus lu */
+  .popular-article {
+    margin-bottom: 40px;
+    padding: 20px;
+    text-align: center; 
+  }
+  
+  .popular-article h2 {
+    margin-top: 0;
+    color: $color-text;
+    margin-bottom: 15px;
+    text-align: center; 
+  }
+  
+
+  /* Style général des cartes d'article */
+  .article-card {
+    background-color: $color-third;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .article-card img {
+    max-width: 80%; 
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto; 
+  }
+  
+  /* Style spécifique pour l'image de l'article le plus lu */
+  .popular-article .article-card img {
+    max-width: 60%; 
+  }
+  
+  .article-card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center; 
+  }
+  
+  .article-card p {
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .article-card a {
+    display: inline-block;
+    background-color: #b75d69;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .article-card a:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style de la section des articles récents */
+  .recent-articles {
+    padding: 20px;
+  }
+  
+  .recent-articles h2 {
+    margin-top: 0;
+    color: #555;
+    margin-bottom: 20px;
+    text-align: center; /* Centre le titre h2 */
+    /* Fait en sorte que le h2 occupe toutes les colonnes de la grille et se place au début */
+    grid-column: 1 / -1;
+  }
+  
+  .recent-articles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
